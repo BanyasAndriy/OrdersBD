@@ -18,9 +18,9 @@ public class Domain {
 
         Scanner scanner = new Scanner(System.in);
 
-        ClientService clientService = new ClientService();
-        OrderService orderService   = new OrderService();
-        StuffService stuffService   = new StuffService();
+        ClientsDao clientService = new ClientService();
+        OrderDao orderService   = new OrderService();
+        StuffDao stuffService   = new StuffService();
         Menu menu = new Menu();
 
         int enter=0;
